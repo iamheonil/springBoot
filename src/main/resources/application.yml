@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+
+  datasource:
+    url: ${DB_URL}
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
